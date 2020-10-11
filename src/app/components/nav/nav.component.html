@@ -1,0 +1,9 @@
+<div [ngClass]="'details_sidebar'">
+    <!-- <a mat-button routerLink="/add"> Add Item</a>
+    <a mat-button routerLink="/contact"> Contact Form</a> -->
+    <mat-card (click)="showData()">Data</mat-card>
+    <app-data-type *ngIf="showdatatype === true"></app-data-type>
+    <mat-card>Visualize</mat-card>
+    <mat-card>Model</mat-card>
+    <mat-card>Results</mat-card>
+ </div>
